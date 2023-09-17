@@ -1,0 +1,44 @@
+body {
+    font-family:sans-serif;
+}
+
+input, button {
+    font-size:x-large;
+}
+
+#answerbox {
+    width:35em;
+    font-size:x-large;
+    text-align:center;
+    display:block;
+    margin:auto;
+    border:none;
+    border-bottom: 1px solid gray;
+    outline:none;
+}
+
+#question {
+    font-size:xx-large;
+    text-align:center;
+    display:block;
+    margin:auto;
+    border:none;
+}
+
+#hintbox {
+    position:fixed;
+    left:50%;
+    top:50%;
+    border: 1px solid black;
+    width:20em;
+    height:12em;
+    margin-top:-6em;
+    margin-left:-10em;
+    font-size:x-large;
+    background-color:white;
+}
+
+#hint {
+    width:100%;
+    height:100%;
+}
