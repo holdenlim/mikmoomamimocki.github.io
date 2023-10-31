@@ -35,6 +35,9 @@ function stringtoobjects(str) {
         output.push(word);
     }
     output.pop();
+    for (let word of output) {
+        word.ustedes = word.ustedes.substring(0,word.ustedes.length - 1);
+    }
     return output
 }
 
